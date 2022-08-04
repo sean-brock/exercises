@@ -1,0 +1,2 @@
+add_executable(basic_recursion basic_recursion.cpp)
+target_compile_features(basic_recursion PRIVATE cxx_std_20)
