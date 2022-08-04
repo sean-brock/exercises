@@ -1,15 +1,25 @@
 #include <iostream>
 
-void print_greater_zero(int n) {
+void tail(int n) {
   if (n > 0) {
     std::cout << n << std::endl;
-    print_greater_zero(n - 1);
+    tail(n - 1);
+  }
+}
+
+void head(int n) {
+  if (n > 0) {
+    head(n - 1);
+    std::cout << n << std::endl;
   }
 }
 
 int main() {
   constexpr int x = 3;
-  print_greater_zero(x);
+  std::cout << "Head:" << std::endl;
+  head(x);
+  std::cout << "Tail:" << std::endl;
+  tail(x);
 
   return 0;
 }
