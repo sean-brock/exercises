@@ -43,6 +43,16 @@
     "sstream": "cpp",
     "stdexcept": "cpp",
     "streambuf": "cpp",
-    "typeinfo": "cpp"
-  }
+    "typeinfo": "cpp",
+    "chrono": "cpp",
+    "compare": "cpp",
+    "concepts": "cpp",
+    "cstring": "cpp",
+    "ctime": "cpp",
+    "ratio": "cpp",
+    "ranges": "cpp",
+    "cinttypes": "cpp"
+  },
+  "cmake.sourceDirectory": "${workspaceFolder}/sbds",
+  "cmake.buildDirectory": "${workspaceFolder}/sbds/build",
 }

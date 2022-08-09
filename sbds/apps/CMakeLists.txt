@@ -1,2 +1,5 @@
 add_executable(basic_recursion basic_recursion.cpp)
-target_compile_features(basic_recursion PRIVATE cxx_std_20)
+add_executable(tree_recursion tree_recursion.cpp)
+add_executable(factorial_recursion factorial_recursion.cpp)
+add_executable(exponent_recursion exponent_recursion.cpp)
+add_executable(taylor_series_recursion taylor_series_recursion.cpp) 
