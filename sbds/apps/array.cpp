@@ -17,6 +17,9 @@ int main() {
   arr.remove(0);
 
   arr.display();
-  arr.insert(111, 10);
+
+  auto result = arr.linearSearch(5);
+  arr.display();
+  std::cout << result.found << ", " << result.index << std::endl;
   return 0;
 }
